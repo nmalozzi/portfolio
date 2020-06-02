@@ -1,0 +1,17 @@
+@mixin mqViewportSm {
+  @media only screen and (min-width: $viewport-sm-width) {
+    @content;
+  }
+}
+
+@mixin mqViewportMd {
+  @media only screen and (min-width: $viewport-md-width) {
+    @content;
+  }
+}
+
+@mixin mqViewportLg {
+  @media only screen and (min-width: $viewport-lg-width) {
+    @content;
+  }
+}
