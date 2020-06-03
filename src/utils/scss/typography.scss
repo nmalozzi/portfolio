@@ -1,22 +1,33 @@
 @import "vars";
-@import "block-level-mixins";
+@import "mixins";
+
+@mixin bodyFont($weight: undefined) {
+  @if $weight == light {
+    font-family: "Ubuntu-Light", Helvetica, Arial, sans-serif;
+  } @else {
+    font-family: "Ubuntu-Regular", Helvetica, Arial, sans-serif;
+  }
+}
+
+@mixin headerFont {
+  font-family: "Ubuntu-Bold", Helvetica, Arial, sans-serif;
+}
 
 html {
+  @include bodyFont();
   font-size: 62.5%;
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
+  @include bodyFont();
   font-size: 1.4rem;
   line-height: 2rem;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $black;
-  font-family: georgia, serif;
-  font-weight: normal;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -30,12 +41,10 @@ h3,
 h4,
 h5,
 h6 {
-  @include defaultMargin;
-  @include defaultPadding;
+  @include bodyFont();
+  @include defaultMargin();
+  @include defaultPadding();
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
 }
 

@@ -1,5 +1,5 @@
-/* Color Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+// Color Variables
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $white: #ffffff;
 $charcoal10: #f7f7f7;
 $charcoal20: #f2f2f2;
@@ -21,11 +21,10 @@ $transparentLight40: rgba($white, 0.4);
 $transparentLight60: rgba($white, 0.5);
 $transparentLight80: rgba($white, 0.8);
 
-/* Block Level Sizing + Spacing + Padding
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+// Block Level Sizing + Spacing + Padding
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $remRoot: 0.8rem;
 $pxRoot: 8px;
-
 // z-indices
 $layerNeg1: -100;
 $layer1: 100;
@@ -38,8 +37,8 @@ $layer7: 700;
 $layer8: 800;
 $layer9: 900;
 
-/* Screen-size + media queries
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+// Screen-size + media queries
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $viewport-sm-width: 568px;
 $viewport-md-width: 768px;
 $viewport-lg-width: 1024px;

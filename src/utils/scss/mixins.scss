@@ -1,0 +1,40 @@
+@import "vars";
+
+// Block Level Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@mixin defaultMargin {
+  margin: 0 0 1.45rem 0;
+}
+
+@mixin defaultPadding {
+  padding: 0;
+}
+
+// Color Variables
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@mixin mqViewportSm {
+  @media only screen and (min-width: $viewport-sm-width) {
+    @content;
+  }
+}
+
+@mixin mqViewportMd {
+  @media only screen and (min-width: $viewport-md-width) {
+    @content;
+  }
+}
+
+@mixin mqViewportLg {
+  @media only screen and (min-width: $viewport-lg-width) {
+    @content;
+  }
+}
+
+// Animation Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$defaultDuration: 0.25s; // default transition
+@mixin simpleTransition($property: all, $duration: $defaultDuration) {
+  transition: $property $duration ease-in-out;
+  animation-fill-mode: both;
+}
+

@@ -1,6 +1,0 @@
-$defaultDuration: 0.25s; // default transition
-
-@mixin simpleTransition($property: all, $duration: $defaultDuration) {
-  transition: $property $duration ease-in-out;
-  animation-fill-mode: both;
-}
