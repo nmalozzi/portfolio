@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import style from "./layout.module.scss"
 
@@ -25,8 +24,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title}/>
-      <div className={style.pageWrapper}>
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <div className={style.wrapper}>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
