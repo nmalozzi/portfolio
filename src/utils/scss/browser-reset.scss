@@ -194,7 +194,7 @@ ul li {
 
 li > ol,
 li > ul {
-  margin-left: calc(#{$remRoot} * 2);
+  margin-left: $remRoot * 2;
   margin-bottom: $remRoot;
   margin-top: $remRoot;
 }

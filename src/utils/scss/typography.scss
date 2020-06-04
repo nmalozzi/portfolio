@@ -1,37 +1,37 @@
 @import "vars";
 @import "mixins";
 
-@mixin bodyFont($weight: undefined) {
-  @if $weight == light {
-    font-family: "Ubuntu-Light", Helvetica, Arial, sans-serif;
-  } @else {
-    font-family: "Ubuntu-Regular", Helvetica, Arial, sans-serif;
-  }
+$remBase: 62.5%;
+
+@mixin rootFontSize {
+  font-size: $remRoot * 2;
+  line-height: $remRoot * 3;
+  letter-spacing: 0.1rem;
+}
+
+@mixin bodyFont {
+  font-family: "Ubuntu-Light", Helvetica, Arial, sans-serif;
 }
 
 @mixin headerFont {
-  font-family: "Ubuntu-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu-Regular", Helvetica, Arial, sans-serif;
 }
 
 html {
-  @include bodyFont();
-  font-size: 62.5%;
+  @include bodyFont;
+  font-size: $remBase;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
-  @include bodyFont();
-  font-size: 1.4rem;
-  line-height: 2rem;
+  @include bodyFont;
+  @include rootFontSize;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $black;
   font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
@@ -41,39 +41,60 @@ h3,
 h4,
 h5,
 h6 {
-  @include bodyFont();
-  @include defaultMargin();
-  @include defaultPadding();
-  color: inherit;
-  text-rendering: optimizeLegibility;
+  @include headerFont;
+  @include defaultMargin;
+  @include defaultPadding;
+  color: $black;
 }
 
 h1 {
-  font-size: 2.25rem;
-  line-height: 1.1;
+  font-size: $remRoot * 3.6;
+
+  @include mqViewportSm {
+    font-size: $remRoot * 4;
+  }
 }
 
 h2 {
-  font-size: 1.62671rem;
-  line-height: 1.1;
+  font-size: $remRoot * 3.2;
+
+  @include mqViewportSm {
+    font-size: $remRoot * 3.6;
+  }
 }
 
 h3 {
-  font-size: 1.38316rem;
-  line-height: 1.1;
+  font-size: $remRoot * 2.8;
+
+  @include mqViewportSm {
+    font-size: $remRoot * 3.2;
+  }
 }
 
 h4 {
-  font-size: 1rem;
-  line-height: 1.1;
+  font-size: $remRoot * 2.4;
+
+  @include mqViewportSm {
+    font-size: $remRoot * 2.8;
+  }
 }
 
 h5 {
-  font-size: 0.85028rem;
-  line-height: 1.1;
+  font-size: $remRoot * 2;
+
+  @include mqViewportSm {
+    font-size: $remRoot * 2.4;
+  }
 }
 
 h6 {
-  font-size: 0.78405rem;
-  line-height: 1.1;
+  font-size: $remRoot * 2;
+}
+
+p {
+  @include bodyFont;
+  @include rootFontSize;
+  @include defaultMargin;
+  @include defaultPadding;
+  color: $charcoal70;
 }

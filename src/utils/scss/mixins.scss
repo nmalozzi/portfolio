@@ -3,7 +3,7 @@
 // Block Level Mixins
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @mixin defaultMargin {
-  margin: 0 0 1.45rem 0;
+  margin: 0 0 $remRoot * 2 0;
 }
 
 @mixin defaultPadding {
