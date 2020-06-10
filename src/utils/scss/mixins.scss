@@ -2,6 +2,10 @@
 
 // Block Level Mixins
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@mixin layoutPadding {
+  padding: $remRoot * 4;
+}
+
 @mixin defaultMargin {
   margin: 0 0 $remRoot * 2 0;
 }

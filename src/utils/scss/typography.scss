@@ -4,8 +4,8 @@
 $remBase: 62.5%;
 
 @mixin rootFontSize {
-  font-size: $remRoot * 2;
-  line-height: $remRoot * 3;
+  font-size: $remRoot * 2.25;
+  line-height: $remRoot * 3.25;
   letter-spacing: 0.1rem;
 }
 
@@ -15,6 +15,18 @@ $remBase: 62.5%;
 
 @mixin headerFont {
   font-family: "Ubuntu-Regular", Helvetica, Arial, sans-serif;
+}
+
+@mixin htmlStyle {
+  &:before {
+    content: '<';
+    color: $trueWhite;
+  }
+
+  &:after {
+    content: '/>';
+    color: $trueWhite;
+  }
 }
 
 html {
@@ -30,7 +42,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $black;
+  color: $white;
   font-kerning: normal;
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
@@ -44,7 +56,7 @@ h6 {
   @include headerFont;
   @include defaultMargin;
   @include defaultPadding;
-  color: $black;
+  color: $white;
 }
 
 h1 {
@@ -56,6 +68,7 @@ h1 {
 }
 
 h2 {
+  @include htmlStyle;
   font-size: $remRoot * 3.2;
 
   @include mqViewportSm {
@@ -72,7 +85,7 @@ h3 {
 }
 
 h4 {
-  font-size: $remRoot * 2.4;
+  font-size: $remRoot * 2.6;
 
   @include mqViewportSm {
     font-size: $remRoot * 2.8;
@@ -80,15 +93,15 @@ h4 {
 }
 
 h5 {
-  font-size: $remRoot * 2;
+  font-size: $remRoot * 2.25;
 
   @include mqViewportSm {
-    font-size: $remRoot * 2.4;
+    font-size: $remRoot * 2.6;
   }
 }
 
 h6 {
-  font-size: $remRoot * 2;
+  font-size: $remRoot * 2.25;
 }
 
 p {
@@ -96,5 +109,25 @@ p {
   @include rootFontSize;
   @include defaultMargin;
   @include defaultPadding;
-  color: $charcoal70;
+  color: $white;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      @include htmlStyle;
+      @include headerFont;
+      font-size: $remRoot * 2.4;
+      line-height: $remRoot * 4;
+      letter-spacing: 0.2rem;
+      color: #97c472;
+
+      &:nth-child(even) {
+        color: #c874e0;
+      }
+    }
+  }
 }

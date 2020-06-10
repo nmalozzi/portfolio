@@ -1,3 +1,6 @@
+@import "../../utils/scss/vars";
+
 .nav {
   display: flex;
+  flex-direction: column;
 }

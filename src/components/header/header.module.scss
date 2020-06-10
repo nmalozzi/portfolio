@@ -1,0 +1,14 @@
+@import "../../utils/scss/vars";
+@import "../../utils/scss/mixins";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  svg {
+    @include defaultMargin;
+    width: 100%;
+    fill: $white;
+  }
+}

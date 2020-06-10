@@ -16,6 +16,7 @@ html {
 
 body {
   word-wrap: break-word;
+  background: $black;
 }
 
 article,
@@ -159,7 +160,7 @@ pre {
   @include defaultMargin;
   font-size: 0.85rem;
   line-height: 1.42;
-  background: $charcoal70;
+  background: $lightBlack;
   border-radius: 3px;
   overflow: auto;
   word-wrap: normal;
@@ -216,7 +217,7 @@ thead {
 td,
 th {
   text-align: left;
-  border-bottom: $charcoal70;
+  border-bottom: $lightBlack;
   font-feature-settings: "tnum";
   padding: $remRoot;
 }
