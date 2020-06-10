@@ -23,23 +23,23 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className={style.layout}>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className={style.wrapper}>
+      <main>
         <h1>Header 1</h1>
         <h2>Header 2</h2>
         <h3>Header 3</h3>
         <h4>Header 4</h4>
         <h5>Header 5</h5>
         <h6>Header 6</h6>
-        <main>{children}</main>
+        {children}
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
-      </div>
-    </>
+      </main>
+    </div>
   )
 }
 

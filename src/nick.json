@@ -1,0 +1,70 @@
+{
+  "firstName": "Nick",
+  "lastName": "Malozzi",
+  "location": "Denver, CO",
+  "navigableData": [
+    {
+      "title": "About",
+      "description": "Description of this section",
+      "tldr": "A Front End Developer with a heavy dose of UI and UX Design Skills.",
+      "verbose": "An explorational & detail oriented approach to software development and design, accompanied by an excellent work ethic and leadership/management experience. A practiced ability to roll with the punches, and stay optimistic during challenges. Just as comfortable talking to members of the Product & UX teams as members of the Front End & Back End teams. Really enjoys the software development process from wireframe to implementation, and loves being involved in every step.\r\n\r\nA mastery of HTML & CSS (SCSS, SASS, & LESS); working knowledge of JavaScript, React, React Native, JSX, JSP, Preact, Styled Components, Gatsby, Handlebars, jQuery, Wordpress, Backbone, Bootstrap, Ruby on Rails, git & GitHub. Proven experience designing and building ATOMIC/component based applications and front end architectures. Comfortable working on Agile and Kanban based teams, with experience using Jira, GitHub Issues, Pivotal Tracker, Trello, and Asana.\r\n\r\nComprehensive knowledge and experience in Adobe's Creative Suite, Sketch, Omnigraffle, Balsamiq, and Invision. Experience with paper prototyping & wire framing, user testing & analysis, white boarding, and other user centered design principles. Firm believer in iterative design and Lean UX principles. Comfortable designing across platforms (Responsive web, iOS, Android, etc)."
+    },
+    {
+      "title": "Projects",
+      "description": "Description of this section",
+      "projects": [
+        {
+          "title": "Project 1",
+          "description": "Description of the project.",
+          "imgUrl": "http://www.fillmurray.com/g/200/200",
+          "tags": ["tag1", "tag2"]
+        },
+        {
+          "title": "Project 1",
+          "description": "Description of the project.",
+          "imgUrl": "http://www.fillmurray.com/g/200/200",
+          "tags": ["tag1", "tag2"]
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "description": "Description of this section",
+      "jobs": [
+        {
+          "companyName": "Bluprint",
+          "jobTitle": "jobTitle",
+          "startDate": "1.2.90",
+          "endDate": "1.2.99",
+          "description": "asd asd fasdfasdfasdf asdf asdf asdf asdfasdfasdf asdfasdf asdfasdf"
+        },
+        {
+          "companyName": "Bluprint",
+          "jobTitle": "jobTitle",
+          "startDate": "1.2.90",
+          "endDate": "1.2.99",
+          "description": "asd asd fasdfasdfasdf asdf asdf asdf asdfasdfasdf asdfasdf asdfasdf"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "description": "Description of this section",
+      "schools": [
+        {
+          "schoolName": "Kutztown University",
+          "degree": "Communication Design",
+          "focus": "Web & Graphic Design",
+          "graduationDate": "1.2.99",
+          "description": "asd asd fasdfasdfasdf asdf asdf asdf asdfasdfasdf asdfasdf asdfasdf"
+        },
+        {
+          "schoolName": "Liberty High School",
+          "degree": "Diploma",
+          "graduationDate": "1.2.99",
+          "description": "asd asd fasdfasdfasdf asdf asdf asdf asdfasdfasdf asdfasdf asdfasdf"
+        }
+      ]
+    }
+  ]
+}
