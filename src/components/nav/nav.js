@@ -7,7 +7,7 @@ const Nav = ({ navItems }) => {
     <nav className={style.nav}>
       <ul>
         {navItems.map(item => (
-          <li key={item.title}>{item.title}</li>
+          <li key={item.title} className={item.color}>{item.title}</li>
         ))}
       </ul>
     </nav>

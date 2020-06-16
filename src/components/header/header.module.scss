@@ -1,4 +1,3 @@
-@import "../../utils/scss/vars";
 @import "../../utils/scss/mixins";
 
 .header {
@@ -13,6 +12,6 @@
   .logo {
     @include defaultMargin;
     width: 100%;
-    fill: $white;
+    fill: $trueWhite;
   }
 }

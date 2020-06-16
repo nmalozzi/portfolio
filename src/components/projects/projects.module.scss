@@ -1,0 +1,34 @@
+@import "../../utils/scss/mixins";
+
+.project {
+  @include defaultMargin;
+  padding-top: $remRoot * 2;
+  display: flex;
+  flex-direction: row;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+
+    .details {
+      padding-left: $remRoot * 2;
+    }
+  }
+}
+
+.details {
+  width: 65%;
+  padding-right: $remRoot * 2;
+
+}
+
+.image {
+  width: 35%;
+}
+
+.tag {
+  display: inline-block;
+  background: $trueBlack;
+  color: $white;
+  padding: $remRoot * .25 $remRoot;
+  margin: $remRoot $remRoot 0 0;
+}

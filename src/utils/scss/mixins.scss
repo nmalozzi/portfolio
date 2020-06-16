@@ -4,7 +4,7 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $smallSpace: $remRoot * 2;
 $mediumSpace: $remRoot * 5;
-$largeSpace: $remRoot * 8;
+$largeSpace: $remRoot * 10;
 
 @mixin defaultMargin {
   margin: 0 0 $remRoot * 2 0;

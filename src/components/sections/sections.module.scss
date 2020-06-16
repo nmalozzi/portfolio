@@ -1,6 +1,5 @@
 @import "../../utils/scss/mixins";
 
-section {
+.section {
   @include sectionPadding;
-  //text-align: center;
 }

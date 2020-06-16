@@ -6,7 +6,11 @@ $remBase: 62.5%;
 @mixin rootFontSize {
   font-size: $remRoot * 2.25;
   line-height: $remRoot * 3.25;
-  letter-spacing: 0.1rem;
+}
+
+@mixin smallFontSize {
+  font-size: $remRoot * 2;
+  line-height: $remRoot * 3;
 }
 
 @mixin bodyFont {
@@ -15,11 +19,31 @@ $remBase: 62.5%;
 }
 
 @mixin headerFont {
-  font-family: "Ubuntu-Regular", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu-Bold", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
+@mixin editorColors {
+  &.green {
+    color: $green;
+  }
+
+  &.magenta {
+    color: $magenta;
+  }
+
+  &.red {
+    color: $red;
+  }
+
+  &.blue {
+    color: $blue;
+  }
+}
+
 @mixin htmlStyle {
+  @include editorColors;
+
   &:before {
     content: '<';
     color: $trueWhite;
@@ -47,6 +71,7 @@ body {
   color: $white;
   font-kerning: normal;
   font-feature-settings: "kern", "liga", "clig", "calt";
+  letter-spacing: normal;
 }
 
 h1,
@@ -58,7 +83,7 @@ h6 {
   @include headerFont;
   @include defaultMargin;
   @include defaultPadding;
-  color: $white;
+  color: $trueWhite;
 }
 
 h1 {
@@ -113,6 +138,10 @@ p {
   @include defaultMargin;
   @include defaultPadding;
   color: $white;
+
+  &.small {
+    @include smallFontSize;
+  }
 }
 
 nav {
@@ -123,14 +152,15 @@ nav {
     li {
       @include htmlStyle;
       @include headerFont;
+      @include editorColors;
       font-size: $remRoot * 2.4;
       line-height: $remRoot * 4;
-      letter-spacing: 0.2rem;
-      color: #97c472;
       text-transform: lowercase;
+      color: $white;
+      cursor: pointer;
 
-      &:nth-child(even) {
-        color: #c874e0;
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
