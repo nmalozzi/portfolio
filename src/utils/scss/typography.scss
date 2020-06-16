@@ -11,10 +11,12 @@ $remBase: 62.5%;
 
 @mixin bodyFont {
   font-family: "Ubuntu-Light", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 @mixin headerFont {
   font-family: "Ubuntu-Regular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 @mixin htmlStyle {
@@ -24,7 +26,7 @@ $remBase: 62.5%;
   }
 
   &:after {
-    content: '/>';
+    content: ' />';
     color: $trueWhite;
   }
 }
@@ -60,7 +62,9 @@ h6 {
 }
 
 h1 {
+  @include htmlStyle;
   font-size: $remRoot * 3.6;
+  text-transform: lowercase;
 
   @include mqViewportSm {
     font-size: $remRoot * 4;
@@ -68,7 +72,6 @@ h1 {
 }
 
 h2 {
-  @include htmlStyle;
   font-size: $remRoot * 3.2;
 
   @include mqViewportSm {
@@ -124,6 +127,7 @@ nav {
       line-height: $remRoot * 4;
       letter-spacing: 0.2rem;
       color: #97c472;
+      text-transform: lowercase;
 
       &:nth-child(even) {
         color: #c874e0;

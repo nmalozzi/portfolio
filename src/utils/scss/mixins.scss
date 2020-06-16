@@ -2,9 +2,9 @@
 
 // Block Level Mixins
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@mixin layoutPadding {
-  padding: $remRoot * 4;
-}
+$smallSpace: $remRoot * 2;
+$mediumSpace: $remRoot * 5;
+$largeSpace: $remRoot * 8;
 
 @mixin defaultMargin {
   margin: 0 0 $remRoot * 2 0;
@@ -12,6 +12,14 @@
 
 @mixin defaultPadding {
   padding: 0;
+}
+
+@mixin layoutPadding {
+  padding: $largeSpace $mediumSpace;
+}
+
+@mixin sectionPadding {
+    margin: 0 0 $largeSpace 0;
 }
 
 // Color Variables

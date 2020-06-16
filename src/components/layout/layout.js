@@ -12,38 +12,21 @@ import Header from "../header/header"
 import style from "./layout.module.scss"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  const siteData = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
           title
+          description
+          author
         }
       }
     }
   `)
-
   return (
     <div className={style.layout}>
-      <Header siteTitle={data.site.siteMetadata.title}/>
-      <main>
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <h4>Header 4</h4>
-        <h5>Header 5</h5>
-        <h6>Header 6</h6>
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <h4>Header 4</h4>
-        <h5>Header 5</h5>
-        <h6>Header 6</h6>
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
-        <h4>Header 4</h4>
-        <h5>Header 5</h5>
-        <h6>Header 6</h6>
+      <Header siteData={siteData.site.siteMetadata}/>
+      <main className={style.main}>
         {children}
         <footer>
           © {new Date().getFullYear()}, Built with

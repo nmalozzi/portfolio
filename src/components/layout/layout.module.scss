@@ -9,12 +9,13 @@
 
 header {
   @include layoutPadding;
+  flex-shrink: 0;
   background: $lightBlack;
   height: 100vh;
   width: 28rem;
 }
 
-main {
+.main {
   @include layoutPadding;
   overflow-y: scroll;
   flex-grow: 1;

@@ -6,7 +6,11 @@
   flex-direction: column;
   justify-content: center;
 
-  svg {
+  .hidden {
+    display: none;
+  }
+
+  .logo {
     @include defaultMargin;
     width: 100%;
     fill: $white;
