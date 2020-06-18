@@ -180,8 +180,7 @@ ul,
 ol {
   @include defaultMargin;
   @include defaultPadding;
-  list-style-position: outside;
-  list-style-image: none;
+  list-style: none;
 }
 
 li {

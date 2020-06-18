@@ -1,0 +1,10 @@
+@import "../../utils/scss/mixins";
+
+.item {
+  @include defaultMargin;
+  padding-top: $remRoot * 2;
+
+  h5, h6 {
+    margin-bottom: $remRoot * .5;
+  }
+}

@@ -84,6 +84,11 @@ h6 {
   @include defaultMargin;
   @include defaultPadding;
   color: $trueWhite;
+
+  &.lightenText,
+  .lightenText {
+    color: $white;
+  }
 }
 
 h1 {
@@ -146,7 +151,6 @@ p {
 
 nav {
   ul {
-    list-style-type: none;
     text-align: center;
 
     li {
