@@ -1,6 +1,5 @@
 @import "../../utils/scss/mixins";
 
 .main {
-  @include layoutPadding;
   z-index: $layer1;
 }

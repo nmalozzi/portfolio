@@ -6,6 +6,30 @@
   align-items: center;
 }
 
+.fullBleed {
+  background: $trueBlack url("../../images/sacred-bg.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $mediumSpace;
+  height: 100px;
+
+  @include mqViewportSm {
+    height: 130px;
+  }
+
+  @include mqViewportMd {
+    height: 160px;
+  }
+}
+
+.pageLogo {
+  width: 180px;
+  fill: $grey;
+}
+
 .section {
   @include sectionPadding;
   width: 100%;
@@ -15,13 +39,4 @@
   @include mqViewportSm {
     text-align: left;
   }
-}
-
-.pageLogo {
-  @include defaultMargin;
-  width: 80%;
-  max-width: 30rem;
-  fill: $white;
-  display: flex;
-  margin: 0 auto $mediumSpace auto;
 }

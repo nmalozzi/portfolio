@@ -19,7 +19,7 @@
 }
 
 @mixin sectionPadding {
-    margin: 0 0 $largeSpace 0;
+    padding: 0 $mediumSpace $largeSpace $mediumSpace;
 }
 
 // Color Variables
@@ -32,12 +32,6 @@
 
 @mixin mqViewportMd {
   @media only screen and (min-width: $viewport-md-width) {
-    @content;
-  }
-}
-
-@mixin mqViewportLg {
-  @media only screen and (min-width: $viewport-lg-width) {
     @content;
   }
 }

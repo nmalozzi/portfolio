@@ -31,15 +31,12 @@
 
 .image {
   width: 100%;
-  height: $remRoot * 18;
-  overflow: hidden;
   margin-bottom: $remRoot * 2;
 
   @include mqViewportMd {
     width: 35%;
     height: initial;
     margin-bottom: 0;
-
   }
 }
 

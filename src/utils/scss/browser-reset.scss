@@ -135,8 +135,8 @@ textarea {
 }
 
 img {
-  @include defaultMargin;
   @include defaultPadding;
+  margin: 0;
   max-width: 100%;
   border-style: none;
 }
