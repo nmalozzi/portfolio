@@ -2,10 +2,6 @@
 
 // Block Level Mixins
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$smallSpace: $remRoot * 2;
-$mediumSpace: $remRoot * 5;
-$largeSpace: $remRoot * 12;
-
 @mixin defaultMargin {
   margin: 0 0 $remRoot * 2 0;
 }

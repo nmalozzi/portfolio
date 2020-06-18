@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
     }
   `)
   return (
-    <div className={style.layout}>
+    <div>
       <Header siteData={siteData.site.siteMetadata}/>
       <main className={style.main}>
         {children}

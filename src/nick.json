@@ -110,49 +110,49 @@
       "color": "red",
       "jobs": [
         {
-          "companyName": "Bluprint",
+          "name": "Bluprint",
           "jobTitle": "Front End UI Engineer",
           "startDate": "7.1.2018",
           "endDate": "Present",
           "description": "Contributed to multiple Front End stacks. Included, but not limited to, an e-commerce platform built in React, an iPhone/Android app built in React Native, a Video Player Library built in Preact/React/JS, and a CMS built in Handlebars/JS. Participated in a number of rebranding and/or rebuilding efforts."
         },
         {
-          "companyName": "Craftsy",
+          "name": "Craftsy",
           "jobTitle": "Sr UX Engineer & Front End UI Engineer",
           "startDate": "6.1.2013",
           "endDate": "7.1.2018",
           "description": "Came on board with Craftsy as a UX Engineer; was quickly promoted to Sr UX Engineer. UX Engineer responsibilities included working with the Product team to create wire frames, user tests, mock ups, conduct user tests, and write HTML/CSS for new features. Transistioned to a more Development focused role in January of 2017."
         },
         {
-          "companyName": "Echostar",
+          "name": "Echostar",
           "jobTitle": "UI/UX Designer",
           "startDate": "6.2.2011",
           "endDate": "7.1.2018",
           "description": "Was the primary UI/UX Designer for dishanywhere.com, Dish Network's streaming service. Also contributed to the Front End coding efforts needed to launch the site."
         },
         {
-          "companyName": "On-Site.com",
+          "name": "On-Site.com",
           "jobTitle": "Web/UI Designer",
           "startDate": "9.1.2008",
           "endDate": "6.2.2011",
           "description": "Designed and coded a template system for the On-Site Marketing platform for apartment complexes. As well as redesigned the UI/UX for said platform's administration interface."
         },
         {
-          "companyName": "Resort Destination Marketing",
+          "name": "Resort Destination Marketing",
           "jobTitle": "Web/UI Designer",
           "startDate": "2.1.2008",
           "endDate": "6.1.2008",
           "description": "Designed and coded vacation rental website's for the ski industry."
         },
         {
-          "companyName": "Sposto Interactive",
+          "name": "Sposto Interactive",
           "jobTitle": "Web Design Intern",
           "startDate": "9.1.2007",
           "endDate": "1.1.2008",
           "description": "Web Design Internship setup through my college."
         },
         {
-          "companyName": "Pocono White Water & Skirmish USA",
+          "name": "Pocono White Water & Skirmish USA",
           "jobTitle": "Web/Graphic Designer",
           "startDate": "4.1.2007",
           "endDate": "9.1.2007"
@@ -164,13 +164,13 @@
       "color": "blue",
       "schools": [
         {
-          "schoolName": "Kutztown University",
+          "name": "Kutztown University",
           "degree": "BFA Communication Design",
           "graduationDate": "12.15.2007",
           "description": "Concentrations in Interactive(Web) & Graphic Design. President of the Outdoors Club."
         },
         {
-          "schoolName": "Liberty High School",
+          "name": "Liberty High School",
           "degree": "High School Diploma",
           "graduationDate": "6.15.2003",
           "description": "Graduated with honors. President of FBLA, President of the Ski Club, Assistant Captain of the Ice Hockey Team."

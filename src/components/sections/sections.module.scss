@@ -1,5 +1,27 @@
 @import "../../utils/scss/mixins";
 
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section {
   @include sectionPadding;
+  width: 100%;
+  max-width: $maxPageWidth;
+  text-align: center;
+
+  @include mqViewportSm {
+    text-align: left;
+  }
+}
+
+.pageLogo {
+  @include defaultMargin;
+  width: 80%;
+  max-width: 30rem;
+  fill: $white;
+  display: flex;
+  margin: 0 auto $mediumSpace auto;
 }

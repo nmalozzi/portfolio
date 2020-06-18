@@ -199,12 +199,6 @@ li > ul {
   margin-top: $remRoot;
 }
 
-blockquote *:last-child,
-li *:last-child,
-p *:last-child {
-  margin-bottom: 0;
-}
-
 li > p {
   margin-bottom: $remRoot;
 }

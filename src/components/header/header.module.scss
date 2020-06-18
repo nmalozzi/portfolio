@@ -1,17 +1,59 @@
 @import "../../utils/scss/mixins";
 
 .header {
+  @include headerPadding;
+  @include simpleTransition();
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: $lightBlack;
+  z-index: $layer2;
+  width: $navWidth;
+  height: 100vh;
 
-  .hidden {
-    display: none;
+  &[data-open="true"] {
+    transform: translateX(0);
   }
 
-  .logo {
-    @include defaultMargin;
-    width: 100%;
-    fill: $trueWhite;
+  &[data-open="false"] {
+    transform: translateX($navWidth);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.navLogoIcon {
+  @include defaultMargin;
+  width: 100%;
+  fill: $trueWhite;
+
+  @include mqViewportSm {
+    display: flex;
+  }
+}
+
+
+.hamburgerMenuIcon {
+  @include simpleTransition();
+  width: $mediumSpace;
+  fill: $white;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: $layer3;
+  padding: $remRoot * 1.4;
+
+  &[data-rotate="true"] {
+    transform: rotate(180deg);
+  }
+
+  &[data-rotate="false"] {
+    transform: rotate(0);
   }
 }

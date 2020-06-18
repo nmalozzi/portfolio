@@ -14,6 +14,12 @@ $blue: #5dadf2;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $remRoot: 0.8rem;
 $pxRoot: 8px;
+$smallSpace: $remRoot * 2;
+$mediumSpace: $remRoot * 6;
+$largeSpace: $remRoot * 12;
+$navWidth: $remRoot * 35;
+$maxPageWidth: 1100px;
+
 // z-indices
 $layer1: 100;
 $layer2: 200;
@@ -21,6 +27,5 @@ $layer3: 300;
 
 // Screen-size + media queries
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-$viewport-sm-width: 568px;
-$viewport-md-width: 768px;
-$viewport-lg-width: 1024px;
+$viewport-sm-width: 680px;
+$viewport-md-width: 800px;

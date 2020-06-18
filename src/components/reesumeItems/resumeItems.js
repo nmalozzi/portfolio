@@ -6,18 +6,18 @@ const ResumeItems = ({ items }) => {
   return (
     <ul>
       {items.map(item => (
-        <li key={item.title} className={style.item}>
+        <li key={item.name} className={style.item}>
           {item.jobTitle &&
           <h5>{item.jobTitle}</h5>
           }
           {item.degree &&
           <h5>{item.degree}</h5>
           }
-          {item.companyName && item.startDate && item.endDate &&
-          <h6 className={"lightenText"}>{item.companyName + " | " + item.startDate + " - " + item.endDate}</h6>
+          {item.startDate && item.endDate &&
+          <h6 className={"lightenText"}>{item.name + " | " + item.startDate + " - " + item.endDate}</h6>
           }
-          {item.schoolName && item.graduationDate &&
-          <h6 className={"lightenText"}>{item.schoolName + " | Graduated: " + item.graduationDate}</h6>
+          {item.graduationDate &&
+          <h6 className={"lightenText"}>{item.name + " | Graduated: " + item.graduationDate}</h6>
           }
           {item.description &&
           <p className={"small"}>{item.description}</p>
