@@ -11,8 +11,8 @@
   top: 0;
   background: $lightBlack;
   z-index: $layer2;
-  width: $navWidth;
   height: 100vh;
+  width: $navWidth;
 
   &[data-open="true"] {
     transform: translateX(0);
@@ -27,16 +27,21 @@
   display: none;
 }
 
-.navLogoIcon {
-  @include defaultMargin;
-  width: 100%;
-  fill: $trueWhite;
+.finePrint {
+  position: absolute;
+  bottom: 0;
+  align-self: center;
+  text-align: center;
 
-  @include mqViewportSm {
-    display: flex;
+  p {
+    color: $grey;
   }
 }
 
+.simplifiedLogoIcon {
+  width: $remRoot * 5;
+  fill: $grey;
+}
 
 .hamburgerMenuIcon {
   @include simpleTransition();
@@ -48,12 +53,23 @@
   top: 0;
   z-index: $layer3;
   padding: $remRoot * 1.4;
+  transform: rotate(0);
 
   &[data-rotate="true"] {
     transform: rotate(180deg);
   }
+}
 
-  &[data-rotate="false"] {
-    transform: rotate(0);
+@media (hover: hover) {
+  .hamburgerMenuIcon {
+    &:hover {
+      transform: rotate(8deg);
+    }
+
+    &[data-rotate="true"] {
+      &:hover {
+        transform: rotate(188deg);
+      }
+    }
   }
 }

@@ -19,7 +19,7 @@ const Sections = ({ sections }) => {
         </svg>
       </div>
       {sections.map(section => (
-        <section key={section.title} className={style.section}>
+        <section id={section.title.replace(/ /g, "")} key={section.title.replace(/ /g,'')} className={style.section}>
           <h1 className={section.color}>{section.title}</h1>
           {section.about &&
           <p>{section.about}</p>

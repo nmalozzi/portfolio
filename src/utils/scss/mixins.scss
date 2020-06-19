@@ -19,7 +19,7 @@
 }
 
 @mixin sectionPadding {
-    padding: 0 $mediumSpace $largeSpace $mediumSpace;
+    padding: $smallSpace $mediumSpace $largeSpace $mediumSpace;
 }
 
 // Color Variables
@@ -43,3 +43,58 @@ $defaultDuration: 0.25s; // default transition
   transition: $property $duration ease-in-out;
   animation-fill-mode: both;
 }
+
+// Type Mixins
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@mixin rootFontSize {
+  font-size: $remRoot * 2.25;
+  line-height: $remRoot * 3.25;
+}
+
+@mixin smallFontSize {
+  font-size: $remRoot * 2;
+  line-height: $remRoot * 3;
+}
+
+@mixin bodyFont {
+  font-family: "Ubuntu-Light", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+@mixin headerFont {
+  font-family: "Ubuntu-Bold", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+@mixin editorColors {
+  &.green {
+    color: $green;
+  }
+
+  &.magenta {
+    color: $magenta;
+  }
+
+  &.red {
+    color: $red;
+  }
+
+  &.blue {
+    color: $blue;
+  }
+}
+
+@mixin htmlStyle {
+  @include editorColors;
+
+  &:before {
+    content: '<';
+    color: $trueWhite;
+  }
+
+  &:after {
+    content: ' />';
+    color: $trueWhite;
+  }
+}
+

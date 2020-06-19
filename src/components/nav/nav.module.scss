@@ -3,5 +3,42 @@
 .nav {
   display: flex;
   flex-direction: column;
-  margin-top: $remRoot * 2;
+  align-items: center;
+
+  ul {
+    text-align: center;
+    width: 100%;
+
+    li {
+      @include headerFont;
+      font-size: $remRoot * 2.4;
+      line-height: $remRoot * 4;
+      text-transform: lowercase;
+      cursor: pointer;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.socialLinks {
+  a {
+    &:hover {
+      .socialIcon {
+        transform: rotate(8deg);
+      }
+    }
+  }
+
+  .socialIcon {
+    @include simpleTransition();
+    width: $remRoot * 4;
+    margin: 0 $remRoot;
+    fill: $grey;
+
+
+  }
 }

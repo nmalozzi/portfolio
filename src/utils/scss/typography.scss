@@ -1,60 +1,6 @@
 @import "vars";
 @import "mixins";
 
-$remBase: 62.5%;
-
-@mixin rootFontSize {
-  font-size: $remRoot * 2.25;
-  line-height: $remRoot * 3.25;
-}
-
-@mixin smallFontSize {
-  font-size: $remRoot * 2;
-  line-height: $remRoot * 3;
-}
-
-@mixin bodyFont {
-  font-family: "Ubuntu-Light", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
-
-@mixin headerFont {
-  font-family: "Ubuntu-Bold", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
-
-@mixin editorColors {
-  &.green {
-    color: $green;
-  }
-
-  &.magenta {
-    color: $magenta;
-  }
-
-  &.red {
-    color: $red;
-  }
-
-  &.blue {
-    color: $blue;
-  }
-}
-
-@mixin htmlStyle {
-  @include editorColors;
-
-  &:before {
-    content: '<';
-    color: $trueWhite;
-  }
-
-  &:after {
-    content: ' />';
-    color: $trueWhite;
-  }
-}
-
 html {
   @include bodyFont;
   font-size: $remBase;
@@ -149,23 +95,6 @@ p {
   }
 }
 
-nav {
-  ul {
-    text-align: center;
-
-    li {
-      @include htmlStyle;
-      @include headerFont;
-      @include editorColors;
-      font-size: $remRoot * 2.4;
-      line-height: $remRoot * 4;
-      text-transform: lowercase;
-      color: $white;
-      cursor: pointer;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
+nav li {
+    @include htmlStyle;
 }

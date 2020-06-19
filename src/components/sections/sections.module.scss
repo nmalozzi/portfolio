@@ -7,8 +7,8 @@
 }
 
 .fullBleed {
-  background: $trueBlack url("../../images/sacred-bg.jpg") center center no-repeat;
-  background-size: cover;
+  background: $trueBlack url("../../images/sacred-bg.jpg") center center repeat;
+  background-size: $viewport-sm-width + 75px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,16 +18,18 @@
 
   @include mqViewportSm {
     height: 130px;
+    background-size: $viewport-md-width + 125px;
   }
 
   @include mqViewportMd {
     height: 160px;
+    background-size: $maxPageWidth + 250px;
   }
 }
 
 .pageLogo {
-  width: 180px;
-  fill: $grey;
+  height: 40%;
+  fill: $white;
 }
 
 .section {

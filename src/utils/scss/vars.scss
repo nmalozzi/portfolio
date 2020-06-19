@@ -13,13 +13,14 @@ $blue: #5dadf2;
 
 // Block Level Sizing + Spacing + Padding
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$remBase: 62.5%;
 $remRoot: 0.8rem;
 $pxRoot: 8px;
 $smallSpace: $remRoot * 2;
 $mediumSpace: $remRoot * 6;
 $largeSpace: $remRoot * 12;
-$navWidth: $remRoot * 35;
-$maxPageWidth: 1100px;
+$navWidth: $remRoot * 36;
+$maxPageWidth: 1000px;
 
 // z-indices
 $layer1: 100;

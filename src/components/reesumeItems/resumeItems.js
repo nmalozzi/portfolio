@@ -6,7 +6,7 @@ const ResumeItems = ({ items }) => {
   return (
     <ul>
       {items.map(item => (
-        <li key={item.name} className={style.item}>
+        <li key={item.name.replace(/ /g,'')} className={style.item}>
           {item.jobTitle &&
           <h5>{item.jobTitle}</h5>
           }
