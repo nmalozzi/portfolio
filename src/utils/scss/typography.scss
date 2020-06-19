@@ -98,3 +98,8 @@ p {
 nav li {
     @include htmlStyle;
 }
+
+a {
+  color: $blue;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+@import "../../utils/scss/mixins";
+
+.legal {
+  align-self: center;
+  text-align: center;
+
+  p {
+    color: $grey;
+  }
+}
+
+.simplifiedLogoIcon {
+  width: $remRoot * 5;
+  fill: $grey;
+}

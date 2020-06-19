@@ -3,3 +3,13 @@
 .main {
   z-index: $layer1;
 }
+
+.gatsby {
+  @include smallFontSize;
+  width: fit-content;
+  margin: 0 auto;
+  padding: $remRoot $remRoot * 2 $remRoot * 2 $remRoot * 2;
+  text-align: center;
+  color: $grey;
+  border-top:  1px solid $grey;
+}
