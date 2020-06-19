@@ -7,16 +7,18 @@ const Projects = ({ projects }) => {
   return (
     <ul>
       {projects.map(project => (
-        <li key={project.title.replace(/ /g,'')} className={style.project}>
+        <li key={project.title.replace(/ /g, "")} className={style.project}>
           <div className={style.details}>
             <h5>{project.title}</h5>
             <p className={"small"}>{project.description}</p>
             {project.tags.map(tag => (
-              <span key={tag.replace(/ /g,'')} className={style.tag}>{tag}</span>
+              <span key={tag.replace(/ /g, "")} className={style.tag}>
+                {tag}
+              </span>
             ))}
           </div>
           <div className={style.image}>
-            <Image/>
+            <Image />
           </div>
         </li>
       ))}

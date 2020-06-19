@@ -16,36 +16,19 @@
           "title": "Instructor Dashboard",
           "description": "Built the Instructor Interface for the Bluprint Video Player Library. This included a statistics section, and an interactive commenting inbox.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
-            "Preact",
-            "MaterialUI",
-            "Javascript",
-            "CSS in JS",
-            "SASS"
-          ]
+          "tags": ["Preact", "MaterialUI", "Javascript", "CSS in JS", "SASS"]
         },
         {
           "title": "Video Player Library (VPL)",
           "description": "Was a core contributor to the Bluprint Video Player Library. My work included consuming and interfacing with our video player (TheoPlayer), styling the video player controls, and passing watch/play data to and from our analytics platforms.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
-            "TheoPlayer",
-            "Javascript",
-            "SASS",
-            "HTML"
-          ]
+          "tags": ["TheoPlayer", "Javascript", "SASS", "HTML"]
         },
         {
           "title": "Video Player Experience (VPE)",
           "description": "Built the Blupint Video Player Experience. Which included the consumption of the VPL mentioned above, as well as the entire user interface for Bluprint's core product. The VPE included episodic navigation, supplies and materials downloads, timestamped notes/bookmarks, and commenting. Additionally, I built user state based messaging/marketing and analytics.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
-            "Brightspot CMS",
-            "Handlebars",
-            "Javascript",
-            "JSON",
-            "LESS"
-          ]
+          "tags": ["Brightspot CMS", "Handlebars", "Javascript", "JSON", "LESS"]
         },
         {
           "title": "Craftsy/Bluprint Shop 2.0",
@@ -84,24 +67,13 @@
           "title": "nickmalozzi.com",
           "description": "This very portfolio site is designed, built, and maintained solely by yours truly.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
-            "Gatsby",
-            "SASS",
-            "UX Design",
-            "UI Design"
-          ]
+          "tags": ["Gatsby", "SASS", "UX Design", "UI Design"]
         },
         {
           "title": "Old Heads That Shred",
           "description": "COMING SOON: Old Heads That Shred is a joint effort with a friend of mine. I'm currently building the site to support our skateboard brand that caters to skaters who firmly believe that age is just a number.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
-            "Gatsby",
-            "SASS",
-            "UX Design",
-            "UI Design",
-            "Graphic Design"
-          ]
+          "tags": ["Gatsby", "SASS", "UX Design", "UI Design", "Graphic Design"]
         }
       ]
     },

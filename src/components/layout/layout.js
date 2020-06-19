@@ -19,13 +19,21 @@ const Layout = ({ children }) => {
   `)
   return (
     <div>
-      <Header siteData={siteData.site.siteMetadata}/>
+      <Header siteData={siteData.site.siteMetadata} />
       <main className={style.main}>
         {children}
         <footer>
-          <Legal/>
+          <Legal />
           <p className={style.gatsby}>
-            Built with <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">Gatsby</a>.
+            Built with{" "}
+            <a
+              href="https://www.gatsbyjs.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Gatsby
+            </a>
+            .
           </p>
         </footer>
       </main>

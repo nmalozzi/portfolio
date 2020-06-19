@@ -19,7 +19,7 @@
 }
 
 @mixin sectionPadding {
-    padding: $smallSpace $mediumSpace $largeSpace $mediumSpace;
+  padding: $smallSpace $mediumSpace $largeSpace $mediumSpace;
 }
 
 // Color Variables
@@ -88,13 +88,12 @@ $defaultDuration: 0.25s; // default transition
   @include editorColors;
 
   &:before {
-    content: '<';
+    content: "<";
     color: $trueWhite;
   }
 
   &:after {
-    content: ' />';
+    content: " />";
     color: $trueWhite;
   }
 }
-

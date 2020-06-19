@@ -7,8 +7,8 @@ import nick from "../nick"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="nick malozzi"/>
-    <Sections sections={nick.navigableData}/>
+    <SEO title="nick malozzi" />
+    <Sections sections={nick.navigableData} />
   </Layout>
 )
 
