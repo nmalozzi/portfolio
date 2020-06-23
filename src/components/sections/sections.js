@@ -14,7 +14,7 @@ const Sections = ({ sections }) => {
           className={style.section}
         >
           <h2 className={section.color}>{section.title}</h2>
-          {section.about && <p>{section.about}</p>}
+          {section.about && <p>{section.about} You can also, <a href="/nick-malozzi-resume.pdf">download my resume</a>.</p>}
           {section.projects && <Projects projects={section.projects}/>}
           {section.jobs && <ResumeItems items={section.jobs}/>}
           {section.schools && <ResumeItems items={section.schools}/>}
