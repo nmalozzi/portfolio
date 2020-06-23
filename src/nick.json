@@ -6,7 +6,7 @@
     {
       "title": "Hello World",
       "color": "green",
-      "about": "My name is Nick Malozzi. I\u00A0❤️\u00A0building interfaces. With experience in Graphic, Web, & UX Design, I'm uniquely suited to work closely with Design and/or Product Teams. I'm currently seeking new roles/opportunities. So read on to learn more, and don't hesitate to get\u00A0in\u00A0touch."
+      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer with experience in Graphic, Web, & UX Design, I'm uniquely suited to work closely with Design and/or Product Teams. I'm currently seeking new roles/opportunities. So read on to learn more, and don't hesitate to get\u00A0in\u00A0touch."
     },
     {
       "title": "Projects",
@@ -16,19 +16,50 @@
           "title": "Instructor Dashboard",
           "description": "Built the Instructor Interface for the Bluprint Video Player Library. This included a statistics section, and an interactive commenting inbox.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": ["Preact", "MaterialUI", "Javascript", "CSS in JS", "SASS"]
+          "tags": [
+            "Preact",
+            "MaterialUI",
+            "Javascript",
+            "CSS in JS",
+            "SASS"
+          ]
         },
         {
           "title": "Video Player Library (VPL)",
           "description": "Was a core contributor to the Bluprint Video Player Library. My work included consuming and interfacing with our video player (TheoPlayer), styling the video player controls, and passing watch/play data to and from our analytics platforms.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": ["TheoPlayer", "Javascript", "SASS", "HTML"]
+          "tags": [
+            "TheoPlayer",
+            "Javascript",
+            "SASS",
+            "HTML"
+          ]
         },
         {
           "title": "Video Player Experience (VPE)",
           "description": "Built the Blupint Video Player Experience. Which included the consumption of the VPL mentioned above, as well as the entire user interface for Bluprint's core product. The VPE included episodic navigation, supplies and materials downloads, timestamped notes/bookmarks, and commenting. Additionally, I built user state based messaging/marketing and analytics.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": ["Brightspot CMS", "Handlebars", "Javascript", "JSON", "LESS"]
+          "tags": [
+            "Brightspot CMS",
+            "Handlebars",
+            "Javascript",
+            "JSON",
+            "LESS"
+          ]
+        },
+        {
+          "title": "Craftsy/Bluprint React Native App",
+          "description": "Was a core Front End contributor to the ground-up rebuild of the Craftsy iOS/Android App using React Native.",
+          "imgUrl": "http://www.fillmurray.com/g/200/200",
+          "tags": [
+            "React Native",
+            "CSS in JS",
+            "Atomic Design",
+            "UX Design",
+            "UI Design",
+            "Sketch",
+            "Invision"
+          ]
         },
         {
           "title": "Craftsy/Bluprint Shop 2.0",
@@ -67,13 +98,24 @@
           "title": "nickmalozzi.com",
           "description": "This very portfolio site is designed, built, and maintained solely by yours truly.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": ["Gatsby", "SASS", "UX Design", "UI Design"]
+          "tags": [
+            "Gatsby",
+            "SASS",
+            "UX Design",
+            "UI Design"
+          ]
         },
         {
           "title": "Old Heads That Shred",
           "description": "COMING SOON: Old Heads That Shred is a joint effort with a friend of mine. I'm currently building the site to support our skateboard brand that caters to skaters who firmly believe that age is just a number.",
           "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": ["Gatsby", "SASS", "UX Design", "UI Design", "Graphic Design"]
+          "tags": [
+            "Gatsby",
+            "SASS",
+            "UX Design",
+            "UI Design",
+            "Graphic Design"
+          ]
         }
       ]
     },
@@ -147,6 +189,43 @@
           "graduationDate": "6.15.2003",
           "description": "Graduated with honors. President of FBLA, President of the Ski Club, Assistant Captain of the Ice Hockey Team."
         }
+      ]
+    },
+    {
+      "title": "Skills",
+      "color": "orange",
+      "skills": [
+        "React",
+        "React Native",
+        "CSS",
+        "CSS in JS",
+        "SASS and SCSS",
+        "LESS",
+        "Preact",
+        "MaterialUI",
+        "Javascript",
+        "Father",
+        "Handlebars",
+        "Gatsby",
+        "jQuery",
+        "Wordpress",
+        "Ruby",
+        "Git and Github",
+        "Pizza Consumption",
+        "Agile",
+        "Atomic Design",
+        "Design Systems",
+        "UX Design",
+        "UI Design",
+        "Graphic Design",
+        "Web Design",
+        "Van Life",
+        "Wireframing",
+        "Adobe Creative Suite",
+        "Sketch",
+        "Invision",
+        "User Testing",
+        "Team Leadership"
       ]
     }
   ]

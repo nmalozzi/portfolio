@@ -82,6 +82,10 @@ $defaultDuration: 0.25s; // default transition
   &.blue {
     color: $blue;
   }
+
+  &.orange {
+    color: $orange;
+  }
 }
 
 @mixin htmlStyle {

@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `nickmalozzi.com`,
+        name: `nickmalozzi.com | Front End Development & Design`,
         short_name: `nickmalozzi.com`,
         description: `A Portfolio Site for Front End Developer & Designer, Nick Malozzi.`,
         lang: `en`,

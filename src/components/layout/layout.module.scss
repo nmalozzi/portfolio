@@ -4,6 +4,37 @@
   z-index: $layer1;
 }
 
+.fullBleed {
+  background: #232323 url("../../images/sacred-bg.jpg") center center no-repeat;
+  background-size: $maxPageWidth;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $mediumSpace;
+  height: 120px;
+
+  @include mqViewportSm {
+    height: 130px;
+    background-size: $viewport-md-width + 180px;
+  }
+
+  @include mqViewportMd {
+    height: 160px;
+    background-size: $maxPageWidth + 260px;
+  }
+
+  h1 {
+    margin: $remRoot * 0.4 0 0 0;
+  }
+}
+
+.pageLogo {
+  height: 40%;
+  fill: $white;
+}
+
 .gatsby {
   @include smallFontSize;
   width: fit-content;
@@ -13,3 +44,4 @@
   color: $grey;
   border-top: 1px solid $grey;
 }
+
