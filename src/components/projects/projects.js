@@ -1,6 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Image from "../image/image"
 import style from "./projects.module.scss"
 
 const Projects = ({ projects }) => {
@@ -16,9 +15,6 @@ const Projects = ({ projects }) => {
                 {tag}
               </span>
             ))}
-          </div>
-          <div className={style.image}>
-            <Image />
           </div>
         </li>
       ))}

@@ -8,35 +8,11 @@
 
   @include mqViewportMd {
     flex-direction: row;
-
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-
-      .details {
-        padding-left: $remRoot * 2;
-      }
-    }
   }
 }
 
 .details {
   width: 100%;
-
-  @include mqViewportMd {
-    width: 65%;
-    padding-right: $remRoot * 2;
-  }
-}
-
-.image {
-  width: 100%;
-  margin-bottom: $remRoot * 2;
-
-  @include mqViewportMd {
-    width: 35%;
-    height: initial;
-    margin-bottom: 0;
-  }
 }
 
 .tag {

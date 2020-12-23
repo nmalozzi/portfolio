@@ -6,7 +6,7 @@
     {
       "title": "Hello World",
       "color": "green",
-      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer with experience in Graphic, Web, & UX Design, I'm uniquely suited to work closely with Design and/or Product Teams. I'm currently seeking new roles/opportunities. So read on to learn more, and don't hesitate to get\u00A0in\u00A0touch."
+      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer with experience in Graphic, Web, & UX Design, I'm uniquely suited to work closely with Design and/or Product Teams. I'm not currently seeking new opportunities, but don't hesitate to get\u00A0in\u00A0touch."
     },
     {
       "title": "Projects",
@@ -124,10 +124,17 @@
       "color": "red",
       "jobs": [
         {
+          "name": "TN Marketing",
+          "jobTitle": "Senior Front End UX/UI Engineer",
+          "startDate": "8.20.2020",
+          "endDate": "Present",
+          "description": "Building and launching new features/sites for the TN Marketing portfolio of enthusiast websites. These sites leverage Wordpress, WooCommerce, React, SASS/SCSS, and JS/jQuery. In addition to Development responsibilities mentioned, also responsible for working closely with the UX team to maintain and build TN's Style Library."
+        },
+        {
           "name": "Bluprint",
           "jobTitle": "Front End UI Engineer",
           "startDate": "7.1.2018",
-          "endDate": "Present",
+          "endDate": "7.31.2020",
           "description": "Contributed to multiple Front End stacks. Included, but not limited to, an e-commerce platform built in React, an iPhone/Android app built in React Native, a Video Player Library built in Preact/React/JS, and a CMS built in Handlebars/JS. Participated in a number of rebranding and/or rebuilding efforts."
         },
         {
