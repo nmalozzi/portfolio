@@ -50,7 +50,7 @@ const Nav = ({ navItems }) => {
             <path d="M18.1 13.1v-2.2L16.5 12z" />
           </svg>
         </a>
-        <a href="mailto:nmalozzi@gmail.com" target="_blank" rel="noreferrer">
+        <a href="mailto:nick@malozzi.codes" target="_blank" rel="noreferrer">
           <svg
             className={style.socialIcon}
             xmlns="http://www.w3.org/2000/svg"

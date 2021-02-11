@@ -15,7 +15,6 @@
         {
           "title": "Instructor Dashboard",
           "description": "Built the Instructor Interface for the Bluprint Video Player Library. This included a statistics section, and an interactive commenting inbox.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
           "tags": [
             "Preact",
             "MaterialUI",
@@ -25,21 +24,13 @@
           ]
         },
         {
-          "title": "Video Player Library (VPL)",
-          "description": "Was a core contributor to the Bluprint Video Player Library. My work included consuming and interfacing with our video player (TheoPlayer), styling the video player controls, and passing watch/play data to and from our analytics platforms.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
+          "title": "Video Player Library & Experience (VPL/VPE)",
+          "description": "Was a core contributor to the Bluprint Video Player Library (VPL). My work included consuming and interfacing with our video player (TheoPlayer), styling the video player controls, and passing watch/play data to and from our analytics platforms. Also, built the Bluprint Video Player Experience (VPE). Which included the consumption of the VPL, as well as the entire user interface for Bluprint's core product. The VPE included episodic navigation, supplies and materials downloads, timestamped notes/bookmarks, and commenting. Additionally, I built user state based messaging/marketing and analytics.",
           "tags": [
             "TheoPlayer",
             "Javascript",
             "SASS",
-            "HTML"
-          ]
-        },
-        {
-          "title": "Video Player Experience (VPE)",
-          "description": "Built the Blupint Video Player Experience. Which included the consumption of the VPL mentioned above, as well as the entire user interface for Bluprint's core product. The VPE included episodic navigation, supplies and materials downloads, timestamped notes/bookmarks, and commenting. Additionally, I built user state based messaging/marketing and analytics.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
+            "HTML",
             "Brightspot CMS",
             "Handlebars",
             "Javascript",
@@ -50,7 +41,6 @@
         {
           "title": "Craftsy/Bluprint React Native App",
           "description": "Was a core Front End contributor to the ground-up rebuild of the Craftsy iOS/Android App using React Native.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
           "tags": [
             "React Native",
             "CSS in JS",
@@ -64,7 +54,6 @@
         {
           "title": "Craftsy/Bluprint Shop 2.0",
           "description": "Was a core contributor to the ground-up rebuild of Craftsy. Which later became the Bluprint Shop. Initial responsibilities included designing and building the Atomic Component Library, and the SASS architecture. Said architecture supported 2 major rebranding efforts on tight timelines (that I executed). Later responsibilities included a number of new features.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
           "tags": [
             "React",
             "Redux",
@@ -81,7 +70,6 @@
         {
           "title": "Craftsy 1.0",
           "description": "Was a core contributor to the Craftsy 1.0 Platform. Responsibilities included UX/UI design, and HTML/JS.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
           "tags": [
             "JSP",
             "jQuery",
@@ -97,24 +85,11 @@
         {
           "title": "nickmalozzi.com",
           "description": "This very portfolio site is designed, built, and maintained solely by yours truly.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
           "tags": [
             "Gatsby",
             "SASS",
             "UX Design",
             "UI Design"
-          ]
-        },
-        {
-          "title": "Old Heads That Shred",
-          "description": "COMING SOON: Old Heads That Shred is a joint effort with a friend of mine. I'm currently building the site to support our skateboard brand that caters to skaters who firmly believe that age is just a number.",
-          "imgUrl": "http://www.fillmurray.com/g/200/200",
-          "tags": [
-            "Gatsby",
-            "SASS",
-            "UX Design",
-            "UI Design",
-            "Graphic Design"
           ]
         }
       ]
@@ -123,6 +98,13 @@
       "title": "Experience",
       "color": "red",
       "jobs": [
+        {
+          "name": "malozzi.codes LLC",
+          "jobTitle": "Lead Front End Engineer, Owner",
+          "startDate": "1.1.2021",
+          "endDate": "Present",
+          "description": "malozzi.codes LLC is my independent contracting entity. As a side hustle, the focus of this work is on the sweet-spot of my skill set; building beautiful, responsive, and clean front end interfaces."
+        },
         {
           "name": "TN Marketing",
           "jobTitle": "Senior Front End UX/UI Engineer",
