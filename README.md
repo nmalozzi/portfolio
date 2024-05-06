@@ -6,4 +6,5 @@ _A Portfolio Site for FE Developer & Designer, Nick Malozzi._
 <br />**Powered by:** <a href="https://www.gatsbyjs.org">Gatsby</a>
 <br />--
 <br />All images, logos, and designs are the property of Nick Malozzi & nickmalozzi.com
-<br />© 2020 Nick Malozzi & nmalozzi.com Some Rights Reserved
+<br />© 2024 Nick Malozzi & malozzi.codes, LLC
+<br />Some Rights Reserved
