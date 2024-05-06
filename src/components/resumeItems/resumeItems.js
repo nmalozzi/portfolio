@@ -20,6 +20,16 @@ const ResumeItems = ({ items }) => {
             </h6>
           )}
           {item.description && <p className={"small"}>{item.description}</p>}
+          {item.linkUrl && (
+              <p>
+                <a href={item.linkUrl} target="_blank" rel="noreferrer">{item.linkText}</a>
+              </p>
+          )}
+          {item.tags && item.tags.map(tag => (
+              <span key={tag.replace(/ /g, "")} className={style.tag}>
+              {tag}
+            </span>
+          ))}
         </li>
       ))}
     </ul>

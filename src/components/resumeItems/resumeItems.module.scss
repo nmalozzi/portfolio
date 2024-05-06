@@ -1,0 +1,21 @@
+@import "../../utils/scss/mixins";
+
+.item {
+  @include defaultMargin;
+  padding-top: $remRoot * 2;
+
+  h5,
+  h6 {
+    margin-bottom: $remRoot * 0.5;
+  }
+}
+
+.tag {
+  display: inline-block;
+  font-size: $remRoot * 1.8;
+  background: $trueBlack;
+  color: $white;
+  padding: $remRoot * 0.25 $remRoot;
+  margin: $remRoot $remRoot 0 0;
+}
+

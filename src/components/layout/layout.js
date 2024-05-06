@@ -40,17 +40,6 @@ const Layout = ({ children }) => {
         {children}
         <footer>
           <Legal/>
-          <p className={style.gatsby}>
-            Built with{" "}
-            <a
-              href="https://www.gatsbyjs.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Gatsby
-            </a>
-            .
-          </p>
         </footer>
       </main>
     </div>

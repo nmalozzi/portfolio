@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Front End Development & Design`,
-    description: `A Portfolio Site for Front End Developer & Designer, Nick Malozzi.`,
+    title: `Front End Leadership, Development, & Design`,
+    description: `A Portfolio Site for Front End Manager, Developer, & Designer, Nick Malozzi.`,
     author: `Nick Malozzi`,
   },
   plugins: [
@@ -20,13 +20,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `nickmalozzi.com | Front End Development & Design`,
+        name: `nickmalozzi.com | Front End Leadership, Development, & Design`,
         short_name: `nickmalozzi.com`,
-        description: `A Portfolio Site for Front End Developer & Designer, Nick Malozzi.`,
+        description: `A Portfolio Site for Front End Manager, Developer, & Designer, Nick Malozzi.`,
         lang: `en`,
         start_url: "/",
-        background_color: "#666666",
-        theme_color: "#666666",
+        background_color: "#666",
+        theme_color: "#666",
         display: "standalone",
         icon: "src/images/favicon.svg",
       },

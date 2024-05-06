@@ -13,12 +13,15 @@
       @include headerFont;
       font-size: $remRoot * 2.4;
       line-height: $remRoot * 4;
-      text-transform: lowercase;
-      cursor: pointer;
-      text-decoration: none;
 
-      &:hover {
-        text-decoration: underline;
+      button {
+        text-transform: lowercase;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }

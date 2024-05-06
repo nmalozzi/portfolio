@@ -6,93 +6,7 @@
     {
       "title": "Hello World",
       "color": "green",
-      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer with experience in Graphic, Web, & UX Design, I'm uniquely suited to work closely with Design and/or Product Teams. I'm not currently seeking new opportunities, but don't hesitate to get\u00A0in\u00A0touch."
-    },
-    {
-      "title": "Projects",
-      "color": "magenta",
-      "projects": [
-        {
-          "title": "Instructor Dashboard",
-          "description": "Built the Instructor Interface for the Bluprint Video Player Library. This included a statistics section, and an interactive commenting inbox.",
-          "tags": [
-            "Preact",
-            "MaterialUI",
-            "Javascript",
-            "CSS in JS",
-            "SASS"
-          ]
-        },
-        {
-          "title": "Video Player Library & Experience (VPL/VPE)",
-          "description": "Was a core contributor to the Bluprint Video Player Library (VPL). My work included consuming and interfacing with our video player (TheoPlayer), styling the video player controls, and passing watch/play data to and from our analytics platforms. Also, built the Bluprint Video Player Experience (VPE). Which included the consumption of the VPL, as well as the entire user interface for Bluprint's core product. The VPE included episodic navigation, supplies and materials downloads, timestamped notes/bookmarks, and commenting. Additionally, I built user state based messaging/marketing and analytics.",
-          "tags": [
-            "TheoPlayer",
-            "Javascript",
-            "SASS",
-            "HTML",
-            "Brightspot CMS",
-            "Handlebars",
-            "Javascript",
-            "JSON",
-            "LESS"
-          ]
-        },
-        {
-          "title": "Craftsy/Bluprint React Native App",
-          "description": "Was a core Front End contributor to the ground-up rebuild of the Craftsy iOS/Android App using React Native.",
-          "tags": [
-            "React Native",
-            "CSS in JS",
-            "Atomic Design",
-            "UX Design",
-            "UI Design",
-            "Sketch",
-            "Invision"
-          ]
-        },
-        {
-          "title": "Craftsy/Bluprint Shop 2.0",
-          "description": "Was a core contributor to the ground-up rebuild of Craftsy. Which later became the Bluprint Shop. Initial responsibilities included designing and building the Atomic Component Library, and the SASS architecture. Said architecture supported 2 major rebranding efforts on tight timelines (that I executed). Later responsibilities included a number of new features.",
-          "tags": [
-            "React",
-            "Redux",
-            "SASS",
-            "JSX",
-            "Atomic Design",
-            "UX Design",
-            "UI Design",
-            "Sketch",
-            "Invision",
-            "User Testing"
-          ]
-        },
-        {
-          "title": "Craftsy 1.0",
-          "description": "Was a core contributor to the Craftsy 1.0 Platform. Responsibilities included UX/UI design, and HTML/JS.",
-          "tags": [
-            "JSP",
-            "jQuery",
-            "LESS",
-            "Wordpress",
-            "UX Design",
-            "UI Design",
-            "Sketch",
-            "Invision",
-            "User Testing"
-          ]
-        },
-        {
-          "title": "nickmalozzi.com",
-          "description": "This very portfolio site is designed, built, and maintained solely by yours truly.",
-          "tags": [
-            "Gatsby",
-            "SASS",
-            "UX Design",
-            "UI Design"
-          ]
-        }
-      ]
+      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer & Manager with experience in UX, Web & Graphic Design, I'm uniquely suited to work closely with Design and/or Product Teams. I am currently seeking new full time opportunities. So please get in touch!"
     },
     {
       "title": "Experience",
@@ -101,70 +15,200 @@
         {
           "name": "malozzi.codes LLC",
           "jobTitle": "Lead Front End Engineer, Owner",
-          "startDate": "1.1.2021",
+          "startDate": "Jan 2021",
           "endDate": "Present",
-          "description": "malozzi.codes LLC is my independent contracting entity. As a side hustle, the focus of this work is on the sweet-spot of my skill set; building beautiful, responsive, and clean front end interfaces."
+          "description": "Operates as my independent contracting venture, prioritizing projects that align closely with my core expertise: crafting visually captivating, responsive, and streamlined frontend interfaces.\nCollaborate with diverse clients, leveraging a wide range of technologies to deliver exceptional frontend solutions.",
+          "tags": [
+            "Remote Development",
+            "Vue/Vuetify",
+            "SCSS/SASS/LESS",
+            "Tailwind",
+            "React",
+            "JS",
+            "jQuery",
+            "Gatsby",
+            "HTML",
+            "UI/UX Design",
+            "Wordpress",
+            "Big Commerce"
+          ]
         },
         {
           "name": "TN Marketing",
-          "jobTitle": "Senior Front End UX/UI Engineer",
-          "startDate": "8.20.2020",
-          "endDate": "Present",
-          "description": "Building and launching new features/sites for the TN Marketing portfolio of enthusiast websites. These sites leverage Wordpress, WooCommerce, React, SASS/SCSS, and JS/jQuery. In addition to Development responsibilities mentioned, also responsible for working closely with the UX team to maintain and build TN's Style Library."
+          "jobTitle": "Sr FE Engineer & FE Manager",
+          "startDate": "Aug 2020",
+          "endDate": "May 2024",
+          "description": "Spearheaded front end initiatives for a dynamic eCommerce platform catering to 14 distinct brands/sites. Orchestrated and contributed to the migration from a conventional PHP/JQuery-driven Wordpress architecture to an independent front end, built with Laravel, Blade templates, Livewire, and AlpineJS. Was a core contributor to the development of Cypress end-to-end tests that supported the migration. Managed a team of remote front end developers across multiple time zones, overseeing task allocation, scoping, and scheduling work. Collaborated closely with the UX team to ensure technical feasibility, and adherence to ADA compliance standards. Also built and supported multiple micro front ends built in React.",
+          "tags": [
+            "Remote Development",
+            "Team Leadership/Management",
+            "Laravel/Blade",
+            "Livewire/AlpineJS",
+            "SCSS/SASS/LESS",
+            "Bulma",
+            "Cypress",
+            "React",
+            "JS",
+            "jQuery",
+            "Git/GitHub",
+            "ADA/a11y",
+            "UI/UX Design",
+            "Wordpress"
+          ]
         },
         {
-          "name": "Bluprint",
-          "jobTitle": "Front End UI Engineer",
-          "startDate": "7.1.2018",
-          "endDate": "7.31.2020",
-          "description": "Contributed to multiple Front End stacks. Included, but not limited to, an e-commerce platform built in React, an iPhone/Android app built in React Native, a Video Player Library built in Preact/React/JS, and a CMS built in Handlebars/JS. Participated in a number of rebranding and/or rebuilding efforts."
-        },
-        {
-          "name": "Craftsy",
-          "jobTitle": "Sr UX Engineer & Front End UI Engineer",
-          "startDate": "6.1.2013",
-          "endDate": "7.1.2018",
-          "description": "Came on board with Craftsy as a UX Engineer; was quickly promoted to Sr UX Engineer. UX Engineer responsibilities included working with the Product team to create wire frames, user tests, mock ups, conduct user tests, and write HTML/CSS for new features. Transistioned to a more Development focused role in January of 2017."
+          "name": "Bluprint/Craftsy",
+          "jobTitle": "FE UI Engineer & Sr. UX Engineer",
+          "startDate": "Jun 2018",
+          "endDate": "Aug 2020",
+          "description": "Played integral roles in both UX and development aspects across various projects, transitioning from UX Engineer to Senior UX Engineer and eventually focusing on Front End UI Engineering. Contributed to diverse Front End stacks, encompassing an e-commerce platform in React, a React Native mobile app, a Video Player Library utilizing Preact/React/JS, and a CMS in Handlebars/JS. Actively participated in re-branding and rebuilding initiatives. Collaborated closely with Product teams, involving wire-framing, user testing, mockups creation, and HTML/CSS development for new features.",
+          "tags": [
+            "Team Leadership/Management",
+            "React",
+            "React Native",
+            "Preact",
+            "CSS in JS",
+            "SCSS/SASS/LESS",
+            "JSX",
+            "jQuery",
+            "TheoPlayer",
+            "Javascript",
+            "HTML",
+            "MaterialUI",
+            "Brightspot CMS",
+            "Handlebars",
+            "JSON",
+            "Wordpress",
+            "UI/UX Design",
+            "Sketch",
+            "Invision",
+            "Atomic Design",
+            "User Testing"
+          ]
         },
         {
           "name": "Echostar",
           "jobTitle": "UI/UX Designer",
-          "startDate": "6.2.2011",
-          "endDate": "6.1.2013",
-          "description": "Was the primary UI/UX Designer for dishanywhere.com, Dish Network's streaming service. Also contributed to the Front End coding efforts needed to launch the site."
+          "startDate": "Jun 2011",
+          "endDate": "Jun 2013",
+          "description": "Was the primary UI/UX Designer for dishanywhere.com, Dish Network's streaming service. Also contributed to the Front End coding efforts needed to launch the site.",
+          "tags": [
+            "Ruby",
+            "HTML",
+            "Handlebars",
+            "SCSS/SASS/LESS",
+            "jQuery",
+            "Javascript",
+            "UI/UX Design"
+          ]
         },
         {
           "name": "On-Site.com",
           "jobTitle": "Web/UI Designer",
-          "startDate": "9.1.2008",
-          "endDate": "6.2.2011",
-          "description": "Designed and coded a template system for the On-Site Marketing platform for apartment complexes. As well as redesigned the UI/UX for said platform's administration interface."
+          "startDate": "Sep 2008",
+          "endDate": "Jun 2011",
+          "description": "Designed and coded a template system for the On-Site Marketing platform for apartment complexes. As well as redesigned the UI/UX for said platform's administration interface.",
+          "tags": [
+            "Ruby",
+            "HTML",
+            "SCSS/SASS/LESS",
+            "Javascript",
+            "UI/UX Design",
+            "Web/Graphic Design"
+          ]
         },
         {
-          "name": "Resort Destination Marketing",
+          "name": "Resort Destination Marketingvvvvv",
           "jobTitle": "Web/UI Designer",
-          "startDate": "2.1.2008",
-          "endDate": "6.1.2008",
-          "description": "Designed and coded vacation rental website's for the ski industry."
+          "startDate": "Feb 2008",
+          "endDate": "Jun 2008",
+          "description": "Designed and coded vacation rental website's for the ski industry.",
+          "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "UI/UX Design",
+            "Web/Graphic Design"
+          ]
         },
         {
           "name": "Sposto Interactive",
           "jobTitle": "Web Design Intern",
-          "startDate": "9.1.2007",
-          "endDate": "1.1.2008",
-          "description": "Web Design Internship setup through my college."
+          "startDate": "Sept 2007",
+          "endDate": "Jan 2008",
+          "description": "Web Design Internship setup through my college.",
+          "tags": [
+            "HTML",
+            "CSS",
+            "Web/Graphic Design"
+          ]
         },
         {
           "name": "Pocono White Water & Skirmish USA",
           "jobTitle": "Web/Graphic Designer",
-          "startDate": "4.1.2007",
-          "endDate": "9.1.2007"
+          "startDate": "Apr 2007",
+          "endDate": "Sept 2007",
+          "tags": [
+            "HTML",
+            "CSS",
+            "Web/Graphic Design"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Other Experience",
+      "color": "yellow",
+      "jobs": [
+        {
+          "name": "Airhead Misfits",
+          "jobTitle": "Owner & Chief Misfit",
+          "startDate": "Nov 2022",
+          "endDate": "Present",
+          "description": "Operates as a Doing Business As (DBA) entity under malozzi.codes, LLC, serving as a platform to support the vintage BMW Airhead motorcycle community. Utilizing Airhead Misfits as a creative outlet to explore and enhance skills in social media marketing, Shopify platform management, and production of print media including stickers, t-shirts, and other merchandise. Engaged in early-stage development of video-based podcast production and editing in collaboration with the established Airhead247 Podcast. After having launched the Airhead247 Podcast website in early 2024.",
+          "linkUrl": "https://airheadmisfits.com/",
+          "linkText": "airheadmisfits.com",
+          "tags": [
+            "Shopify",
+            "Social Media Marketing",
+            "Business Ownership",
+            "SCSS/SASS/LESS",
+            "Javascript",
+            "Wordpress",
+            "UI/UX Design",
+            "Web/Graphic Design",
+            "Print Design",
+            "Customer Service",
+            "Riding Vintage Motorcycles"
+          ]
+        },
+        {
+          "name": "Savage Orchid Racing",
+          "jobTitle": "Vice President & Creative Director",
+          "startDate": "Jan 2009",
+          "endDate": "Present",
+          "description": "Co-founded and management of Savage Orchid Racing, a 501(c)(7) not-for-profit racing club, alongside three former colleagues from the Craftsy technology team. Lead the creative direction by generating all visual assets including car liveries, logos, branding, and thematic elements. Oversee the maintenance, modification, and construction of a fleet of three cars. Assist in the coordination, strategy, and logistics for a team of about 10 drivers/crew. Regularly compete in the 24 Hours of Lemons racing series, two-time recipients of the Best Theme award and consistently placing within the top 10 in class.",
+          "linkUrl": "https://www.instagram.com/savageorchidracing/",
+          "linkText": "@savageorchidracing",
+          "tags": [
+            "Leadership",
+            "Management",
+            "Social Media Marketing",
+            "Business Ownership",
+            "UI/UX Design",
+            "Web/Graphic Design",
+            "Print Design",
+            "Scheduling/Logistics",
+            "Race Car Maintenance/Modification",
+            "Thinking Fast",
+            "Driving Fast"
+          ]
         }
       ]
     },
     {
       "title": "Education",
-      "color": "blue",
+      "color": "magenta",
       "schools": [
         {
           "name": "Kutztown University",

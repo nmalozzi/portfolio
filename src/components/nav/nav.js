@@ -10,10 +10,11 @@ const Nav = ({ navItems }) => {
         {navItems.map(item => (
           <li
             key={item.title.replace(/ /g, "")}
-            onClick={() => scrollTo("#" + item.title.replace(/ /g, ""))}
             className={item.color}
           >
-            {item.title}
+            <button onClick={() => scrollTo("#" + item.title.replace(/ /g, ""))} >
+              {item.title}
+            </button>
           </li>
         ))}
       </ul>
