@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import style from "./projects.module.scss"
+import * as style from "./projects.module.scss"
 
 const Projects = ({ projects }) => {
   return (
@@ -10,11 +10,13 @@ const Projects = ({ projects }) => {
           <div className={style.details}>
             <h5>{project.title}</h5>
             <p className={"small"}>{project.description}</p>
-            {project.tags.map(tag => (
-              <span key={tag.replace(/ /g, "")} className={style.tag}>
-                {tag}
-              </span>
-            ))}
+              {project.images &&
+                <div>
+                  {project.images.map(image => (
+                    <img src={image.url} alt={image.title} />
+                  ))}
+                </div>
+              }
           </div>
         </li>
       ))}

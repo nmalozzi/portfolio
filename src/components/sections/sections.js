@@ -1,7 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
-import style from "./sections.module.scss"
+import * as style from "./sections.module.scss"
 import ResumeItems from "../resumeItems/resumeItems"
+import Projects from "../projects/projects"
 
 const Sections = ({ sections }) => {
   return (
@@ -14,7 +15,10 @@ const Sections = ({ sections }) => {
         >
           <h2 className={section.color}>{section.title}</h2>
           {section.about &&
-              <p>{section.about} You can also view or download <a href="/nick-malozzi-resume-2024.pdf" target="_blank" rel="noreferrer">my resume</a>.</p>
+              <p>{section.about}</p>
+          }
+          {section.resumeUrl &&
+              <p>You can also view or download <a href={section.resumeUrl} target='_blank' rel='noreferrer'>my resume</a>.</p>
           }
           {section.jobs && <ResumeItems items={section.jobs}/>}
           {section.schools && <ResumeItems items={section.schools}/>}
@@ -29,6 +33,9 @@ const Sections = ({ sections }) => {
               </li>
             ))}
           </ul>
+          }
+          {section.projects &&
+              <Projects projects={section.projects}/>
           }
         </section>
       ))}

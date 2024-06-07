@@ -1,6 +1,6 @@
 import React from "react"
 import nick from "../../nick"
-import style from "./legal.module.scss"
+import * as style from "./legal.module.scss"
 
 const fullName = nick.firstName + " " + nick.lastName
 

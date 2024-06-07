@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import style from "./resumeItems.module.scss"
+import * as style from "./resumeItems.module.scss"
 
 const ResumeItems = ({ items }) => {
   return (

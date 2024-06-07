@@ -6,7 +6,9 @@
     {
       "title": "Hello World",
       "color": "green",
-      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer & Manager with experience in UX, Web & Graphic Design, I'm uniquely suited to work closely with Design and/or Product Teams. I am currently seeking new full time opportunities. So please get in touch!"
+      "about": "My name is Nick Malozzi, and I\u00A0❤️\u00A0building interfaces. As a Front End Developer & Manager with experience in UX, Web & Graphic Design, I'm uniquely suited to work closely with Design and/or Product Teams. I am currently seeking new full time opportunities. So please get in touch!",
+      "resumeUrl": "/nick-malozzi-resume-2024.pdf"
+
     },
     {
       "title": "Experience",
@@ -118,7 +120,7 @@
           ]
         },
         {
-          "name": "Resort Destination Marketingvvvvv",
+          "name": "Resort Destination Marketing",
           "jobTitle": "Web/UI Designer",
           "startDate": "Feb 2008",
           "endDate": "Jun 2008",
@@ -271,6 +273,40 @@
         "Invision",
         "User Testing",
         "Team Leadership"
+      ]
+    },
+    {
+      "title": "portfolio",
+      "color": "blue",
+      "about" : "Please find below a small sampling of my design work over the years.",
+      "projects": [
+        {
+          "title": "Craftsy",
+          "description": "UI/UX Design for the web application and iOS/Android versions of the Craftsy 2.0 Platform.",
+          "images": [
+            {
+              "url": "Craftsy",
+              "title": "Craftsy",
+              "description": "UI/UX Design for the web application and iOS/Android versions of the Craftsy 2.0 Platform."
+            }
+          ]
+        },
+        {
+          "title": "DishAnywhere",
+          "description": "UI/UX Design for the DishAnywhere web application."
+        },
+        {
+          "title": "Airhead Misfits",
+          "description": "Graphic and logo design work for Airhead Misfits."
+        },
+        {
+          "title": "Savage Orchid Racing",
+          "description": "Graphic and logo design work for Savage Orchid Racing."
+        },
+        {
+          "title": "Aspen Glen",
+          "description": "Logo design for my wife's AirBnB, Aspen Glen."
+        }
       ]
     }
   ]

@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import Nav from "../nav/nav"
 import Legal from "../legal/legal"
 import nick from "../../nick"
-import style from "./header.module.scss"
+import * as style from "./header.module.scss"
 
 const Header = ({ siteData }) => {
   const [navExpanded, toggleNavExpand] = useState(false)

@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/layout/layout"
-import SEO from "../components/seo/seo"
+import Seo from "../components/seo/seo"
 import Sections from "../components/sections/sections"
 import "./page.scss"
 import nick from "../nick"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="nick malozzi" />
+    <Seo title="nick malozzi" />
     <Sections sections={nick.navigableData} />
   </Layout>
 )
