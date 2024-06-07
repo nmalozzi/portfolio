@@ -285,9 +285,19 @@
           "description": "UI/UX Design for the web application and iOS/Android versions of the Craftsy 2.0 Platform.",
           "images": [
             {
-              "url": "Craftsy",
-              "title": "Craftsy",
-              "description": "UI/UX Design for the web application and iOS/Android versions of the Craftsy 2.0 Platform."
+              "url": "https://picsum.photos/400/400",
+              "title": "title",
+              "description": "description"
+            },
+            {
+              "url": "https://picsum.photos/400/400",
+              "title": "title",
+              "description": "description"
+            },
+            {
+              "url": "https://picsum.photos/400/400",
+              "title": "title",
+              "description": "description"
             }
           ]
         },
