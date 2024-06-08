@@ -278,32 +278,292 @@
     {
       "title": "portfolio",
       "color": "blue",
-      "about" : "Please find below a small sampling of my design work over the years.",
+      "about" : "Please find below a sampling of my design work over the years. More examples available upon request.",
       "projects": [
         {
-          "title": "Craftsy",
-          "description": "UI/UX Design for the web application and iOS/Android versions of the Craftsy 2.0 Platform.",
+          "title": "Craftsy 2.0 IOS/Android",
+          "description": "UI/UX Design for the iOS/Android versions of the Craftsy 2.0 Platform. These were assembled as a prototype and user tested. Then used to create a UI Component Library in React Native. I also built/coded many of these components.",
           "images": [
             {
-              "url": "https://picsum.photos/400/400",
-              "title": "title",
-              "description": "description"
+              "url": "craftsy-library/iphone/00.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
             },
             {
-              "url": "https://picsum.photos/400/400",
-              "title": "title",
-              "description": "description"
+              "url": "craftsy-library/iphone/01.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
             },
             {
-              "url": "https://picsum.photos/400/400",
+              "url": "craftsy-library/iphone/02.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/03.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/04.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/05.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/06.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/07.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/08.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/09.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/10.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/11.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/12.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/13.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/14.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/15.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/16.jpg",
+              "description": "Craftsy Library iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/17.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/18.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/19.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/20.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/21.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/22.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/23.jpg",
+              "description": "Craftsy Cart/Checkout iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/24.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/25.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/26.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/27.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/28.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/29.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/30.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/31.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/32.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/33.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/34.jpg",
               "title": "title",
-              "description": "description"
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/35.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/36.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/37.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/38.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/39.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/40.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/41.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/42.jpg",
+              "description": "Craftsy Project Detail iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/43.jpg",
+              "description": "Craftsy Filter Gallery iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/44.jpg",
+              "description": "Craftsy Filter Gallery iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/45.jpg",
+              "description": "Craftsy Filter Gallery iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/46.jpg",
+              "description": "Craftsy Filter Gallery iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/47.jpg",
+              "description": "Craftsy Filter Gallery iPhone - Loading Screen"
+            },
+            {
+              "url": "craftsy-library/iphone/48.jpg",
+              "description": "Craftsy Filter Gallery iPhone - Loading Screen"
             }
           ]
         },
         {
           "title": "DishAnywhere",
-          "description": "UI/UX Design for the DishAnywhere web application."
+          "description": "UI/UX Design for the DishAnywhere Web App. I also built/coded much of this UI.",
+          "images": [
+            {
+              "url": "dishanywhere/01.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/02.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/03.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/04.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/05.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/06.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/07.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/08.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/09.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/10.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/11.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/12.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/13.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/14.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/15.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/16.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/17.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/18.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            },
+            {
+              "url": "dishanywhere/19.jpg",
+              "description": "DishAnywhere Web App - Loading Screen"
+            }
+          ]
         },
         {
           "title": "Airhead Misfits",

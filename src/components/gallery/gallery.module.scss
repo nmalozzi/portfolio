@@ -1,0 +1,41 @@
+@import "../../utils/scss/mixins";
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: calc(50% - 16px);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 8px 16px 8px;
+  position: relative;
+
+  @include mqViewportSm {
+    width: calc(33% - 16px);
+    height: 110px;
+  }
+
+  @include mqViewportMd {
+    width: calc(20% - 16px);
+    height: 120px;
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &:hover {
+    opacity: .8;
+    transform: rotate(2deg);
+  }
+}

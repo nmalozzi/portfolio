@@ -24,8 +24,8 @@ const Sections = ({ sections }) => {
           {section.schools && <ResumeItems items={section.schools}/>}
           {section.skills &&
           <ul className={style.skills}>
-            {section.skills.map(skill => (
-              <li className={style.skill}>
+            {section.skills.map((skill, index) => (
+              <li key={'skill' + index} className={style.skill}>
                 <span className={style.skillIcon}>
                   <img src={"../../icons/" + skill.replace(/ /g, "") + ".svg"} alt={skill + " Icon"}/>
                 </span>

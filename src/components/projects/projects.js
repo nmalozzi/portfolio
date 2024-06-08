@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Gallery from "../gallery/gallery";
 import FsLightbox from "fslightbox-react";
 import PropTypes from "prop-types"
 import * as style from "./projects.module.scss"
@@ -12,33 +13,21 @@ const Projects = ({projects}) => {
 	function openLightboxOnSlide(number) {
 		setLightboxController({
 			toggler: !lightboxController.toggler,
-			slide: number
+			slide: number + 1
 		});
 	}
 
 	return (
 		<ul>
-
-
-			{projects.map(project => (
-				<li key={project.title.replace(/ /g, "")} className={style.project}>
+			{projects.map((project, index) => (
+				<li key={project.title.replace(/ /g, "") + index} className={style.project}>
 					<div className={style.details}>
 						<h5>{project.title}</h5>
 						<p className={"small"}>{project.description}</p>
 						{project.images &&
-							<div>
-								{project.images.map((image, index) => (
-									<button onClick={() => openLightboxOnSlide(index)}>
-										<img src={image.url} alt={image.title}/>
-									</button>
-								))}
-
-
-								<FsLightbox
-									toggler={lightboxController.toggler}
-									sources={project.images.map(image => (image.url))}
-								/>
-							</div>
+							<Gallery
+								images={project.images}
+							/>
 						}
 					</div>
 				</li>
