@@ -61,7 +61,7 @@
         {
           "name": "Bluprint/Craftsy",
           "jobTitle": "FE UI Engineer & Sr. UX Engineer",
-          "startDate": "Jun 2018",
+          "startDate": "Jun 2013",
           "endDate": "Aug 2020",
           "description": "Played integral roles in both UX and development aspects across various projects, transitioning from UX Engineer to Senior UX Engineer and eventually focusing on Front End UI Engineering. Contributed to diverse Front End stacks, encompassing an e-commerce platform in React, a React Native mobile app, a Video Player Library utilizing Preact/React/JS, and a CMS in Handlebars/JS. Actively participated in re-branding and rebuilding initiatives. Collaborated closely with Product teams, involving wire-framing, user testing, mockups creation, and HTML/CSS development for new features.",
           "tags": [
@@ -283,202 +283,203 @@
         {
           "title": "Craftsy 2.0 IOS/Android",
           "description": "UI/UX Design for the iOS/Android versions of the Craftsy 2.0 Platform. These were assembled as a prototype and user tested. Then used to create a UI Component Library in React Native. I also built/coded many of these components.",
+          "directory": "craftsy-library",
           "images": [
             {
-              "url": "craftsy-library/iphone/00.jpg",
+              "url": "00.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/01.jpg",
+              "url": "01.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/02.jpg",
+              "url": "02.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/03.jpg",
+              "url": "03.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/04.jpg",
+              "url": "04.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/05.jpg",
+              "url": "05.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/06.jpg",
+              "url": "06.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/07.jpg",
+              "url": "07.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/08.jpg",
+              "url": "08.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/09.jpg",
+              "url": "09.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/10.jpg",
+              "url": "10.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/11.jpg",
+              "url": "11.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/12.jpg",
+              "url": "12.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/13.jpg",
+              "url": "13.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/14.jpg",
+              "url": "14.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/15.jpg",
+              "url": "15.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/16.jpg",
+              "url": "16.jpg",
               "description": "Craftsy Library iPhone"
             },
             {
-              "url": "craftsy-library/iphone/17.jpg",
+              "url": "17.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/18.jpg",
+              "url": "18.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/19.jpg",
+              "url": "19.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/20.jpg",
+              "url": "20.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/21.jpg",
+              "url": "21.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/22.jpg",
+              "url": "22.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/23.jpg",
+              "url": "23.jpg",
               "description": "Craftsy Cart/Checkout iPhone"
             },
             {
-              "url": "craftsy-library/iphone/24.jpg",
+              "url": "24.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/25.jpg",
+              "url": "25.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/26.jpg",
+              "url": "26.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/27.jpg",
+              "url": "27.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/28.jpg",
+              "url": "28.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/29.jpg",
+              "url": "29.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/30.jpg",
+              "url": "30.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/31.jpg",
+              "url": "31.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/32.jpg",
+              "url": "32.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/33.jpg",
+              "url": "33.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/34.jpg",
+              "url": "34.jpg",
               "title": "title",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/35.jpg",
+              "url": "35.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/36.jpg",
+              "url": "36.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/37.jpg",
+              "url": "37.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/38.jpg",
+              "url": "38.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/39.jpg",
+              "url": "39.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/40.jpg",
+              "url": "40.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/41.jpg",
+              "url": "41.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/42.jpg",
+              "url": "42.jpg",
               "description": "Craftsy Project Detail iPhone"
             },
             {
-              "url": "craftsy-library/iphone/43.jpg",
+              "url": "43.jpg",
               "description": "Craftsy Filter Gallery iPhone"
             },
             {
-              "url": "craftsy-library/iphone/44.jpg",
+              "url": "44.jpg",
               "description": "Craftsy Filter Gallery iPhone"
             },
             {
-              "url": "craftsy-library/iphone/45.jpg",
+              "url": "45.jpg",
               "description": "Craftsy Filter Gallery iPhone"
             },
             {
-              "url": "craftsy-library/iphone/46.jpg",
+              "url": "46.jpg",
               "description": "Craftsy Filter Gallery iPhone"
             },
             {
-              "url": "craftsy-library/iphone/47.jpg",
+              "url": "47.jpg",
               "description": "Craftsy Filter Gallery iPhone"
             },
             {
-              "url": "craftsy-library/iphone/48.jpg",
+              "url": "48.jpg",
               "description": "Craftsy Filter Gallery iPhone"
             }
           ]
@@ -486,81 +487,82 @@
         {
           "title": "DishAnywhere",
           "description": "UI/UX Design for the DishAnywhere Web App. I also built/coded much of this UI.",
+          "directory": "dishanywhere",
           "images": [
             {
-              "url": "dishanywhere/01.jpg",
+              "url": "01.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/02.jpg",
+              "url": "02.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/03.jpg",
+              "url": "03.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/04.jpg",
+              "url": "04.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/05.jpg",
+              "url": "05.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/06.jpg",
+              "url": "06.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/07.jpg",
+              "url": "07.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/08.jpg",
+              "url": "08.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/09.jpg",
+              "url": "09.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/10.jpg",
+              "url": "10.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/11.jpg",
+              "url": "11.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/12.jpg",
+              "url": "12.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/13.jpg",
+              "url": "13.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/14.jpg",
+              "url": "14.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/15.jpg",
+              "url": "15.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/16.jpg",
+              "url": "16.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/17.jpg",
+              "url": "17.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/18.jpg",
+              "url": "18.jpg",
               "description": "DishAnywhere Web App"
             },
             {
-              "url": "dishanywhere/19.jpg",
+              "url": "19.jpg",
               "description": "DishAnywhere Web App"
             }
           ]
@@ -568,72 +570,74 @@
         {
           "title": "Airhead Misfits",
           "description": "Graphic, logo, and print design work for Airhead Misfits.",
+          "directory": "misfits",
           "images": [
             {
-              "url": "misfits/01.png"
+              "url": "01.png"
             },
             {
-              "url": "misfits/02.png"
+              "url": "02.png"
             },
             {
-              "url": "misfits/03.png"
+              "url": "03.png"
             },
             {
-              "url": "misfits/04.png"
+              "url": "04.png"
             },
             {
-              "url": "misfits/05.png"
+              "url": "05.png"
             },
             {
-              "url": "misfits/06.png"
+              "url": "06.png"
             },
             {
-              "url": "misfits/07.jpg"
+              "url": "07.jpg"
             },
             {
-              "url": "misfits/08.jpg"
+              "url": "08.jpg"
             },
             {
-              "url": "misfits/09.jpg"
+              "url": "09.jpg"
             },
             {
-              "url": "misfits/10.jpg"
+              "url": "10.jpg"
             },
             {
-              "url": "misfits/11.jpg"
+              "url": "11.jpg"
             },
             {
-              "url": "misfits/12.jpg"
+              "url": "12.jpg"
             },
             {
-              "url": "misfits/13.jpg"
+              "url": "13.jpg"
             },
             {
-              "url": "misfits/14.jpg"
+              "url": "14.jpg"
             }
           ]
         },
         {
           "title": "Savage Orchid Racing",
           "description": "Graphic and logo design work for Savage Orchid Racing.",
+          "directory": "sor",
           "images": [
             {
-              "url": "sor/01.jpg"
+              "url": "01.png"
             },
             {
-              "url": "sor/02.png"
+              "url": "02.png"
             },
             {
-              "url": "sor/03.png"
+              "url": "03.jpg"
             },
             {
-              "url": "sor/04.png"
+              "url": "04.png"
             },
             {
-              "url": "sor/05.png"
+              "url": "05.png"
             },
             {
-              "url": "sor/06.png"
+              "url": "06.png"
             }
           ]
         }

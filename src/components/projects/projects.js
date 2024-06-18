@@ -27,6 +27,7 @@ const Projects = ({projects}) => {
 						{project.images &&
 							<Gallery
 								images={project.images}
+								directory={project.directory}
 							/>
 						}
 					</div>
